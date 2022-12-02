@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Document</title>
+</head>
+
+<body>
+
+	<div id="main"></div>
+	<div id="hid">
+		<div id="body"></div>
+		<div id="headder"><img id="img1" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r-1678765860913173279&th=1848d7931af3caf1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_NWh17PjZzbR1YcvCA2mimoFrUb6j5N_F0LROD6iWa7DXCf9BQHUuCm4C_w6RF6XSoSCnZls5YWXqLGoPsU1h65fXMxvcBW5g7WvKUfEp9O9_zIrG26MeDd2k&disp=emb&realattid=ii_lan8sdu80"></div>
+		<div id="HEADDER2"></div>
+		<p id="headt">W W W</p>
+		<input type="text" id="text1">
+		<iframe id="search" src="//jsfiddle.net/mathisfun/sztqnuh1/72/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+		<img id="buttons" onclick="text()" src="https://preview.redd.it/qa0k1n3tfar81.png?auto=webp&s=e9149408f481910b24dcb27167b6e637fb73d876">
+	</div>
+	<div id="bottom"></div>
+
+	<div class="dropup">
+		<button class="dropbtn"><img id="start" src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/2e2c18b80ef8edc.png"></button>
+		<div class="dropup-content">
+			<a href="#"><img id="doc" src="https://e7.pngegg.com/pngimages/364/107/png-clipart-windows-95-windows-98-directory-computer-icons-aesthetic-estate-publicity-miscellaneous-rectangle-thumbnail.png"> Documents &#9656;</a>
+			<a href="#" onclick="mine()">Mine Sweeper</a>
+			<a href="#">Find &#9656;</a>
+			<a href="#">Help</a>
+			<a href="#">Run</a>
+			<a>_______________</a>
+			<a href="#">Log Off</a>
+			<a href="#" onclick="shutdown()"><img id="stdwnimg" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r-3049599609227258248&th=1849c4e8a16f4b06&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_nR7u8ef2VdtWsalMSyV7z2OHUaIolEKrbyAYaRVluzljLlUUj7LiOROo_8ND5I0hv5Bz771BNE1NxGZ6-Y5l4f5jOyJwcOubWekR0oqcVvp35czoctvYQB0M&disp=emb&realattid=ii_lard09250">&#160;&#160;&#160;&#160;&#160;&#160;&#160;Shut Down</a>
+			<div id="color" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r-1678765860913173279&th=1848d7931af3caf1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_NWh17PjZzbR1YcvCA2mimoFrUb6j5N_F0LROD6iWa7DXCf9BQHUuCm4C_w6RF6XSoSCnZls5YWXqLGoPsU1h65fXMxvcBW5g7WvKUfEp9O9_zIrG26MeDd2k&disp=emb&realattid=ii_lan8sdu80"></div>
+		</div>
+	</div>
+
+	<div>
+		<img onclick="text()" id="text" src="https://i.pinimg.com/736x/3e/82/3f/3e823f8c16a5af78c0cd1cbbe9258fd1.jpg">
+		<p id="p"></p>
+	</div>
+
+	<img onclick="chat()" id="fr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAACYCAMAAABpqnO5AAAAJFBMVEUAhIT///+EhIQAAADGxsYAAP8AAISEhAAA//8A/wAAhAD//wBCFMUSAAACaUlEQVR4nO2Zi27DIAxFQ5q12fr//7shFvGy8yokXHSPVLVpDZxIhmA6PB4DLtDyhBBCCGmXcYW73TYBlh/HSWUcG9/6AcuPo1GxaUP5Wlh5aaIaY5OG8vVw8o+E55PytVnkvyIoXx8vP8+UvxLK30UnE5by19KB/DND3q41VhzCy8uFCEBxCC4v60EUh+DyaSFiASkOgeX1xVAqDilfTl2flE4+j6d8CZxMvkz6tBmGeU7jKf85Tub7j1DeL5WUr4WT+flD2h5ATFhY+a2HVBpP+VJImzKYjRm0/IItSUIhfeNA+bLk8lJxuCyjNq2aOf7oTl6bym46p/G30pH82sPL0dDBE6S8nXRW5fWPS4i1A6eGDp6g5afJvqbp9TLm/bbyy3ZYKw590lD+E+zwdunz8v5oSSoOFyhfCq9lr/TiME4iypdm+xHVrDq4vF4chtztqAItTwghhBBCCGkRY/SrMn1WBFw+HEoe9qgM5fcO5Aej/N3yy18G6ecwQv4t7K/6TcDL50r5r5J8Hhe2vyB5OpCPB5Tk46RYi0tvrCJdyMdSnnPy8aOP8vvlpZhjaXPphAWXT5c6TUp6CK3HVaMb+XTKbcmlcdpNVQNanhBCCCEEA3nLtRZzpOXevk62A5ePC42z3VH+aLv46IfyxyXOtpPltcLNfRcecoQxaVGoHWzrUdp1r/L6QVB4Hd5C/B5e6X3IrWQPbcz+5GXNPd8e1zjTajVtwOXDqWsCKH+tvBRD+VryLl30Lvywsvw+rbO33Ld8HLxnexAPs7U9kN8/3h6Ayp+hWEd3QPm7gJRPJxMU0PKEwPILBjckcUasY7UAAAAASUVORK5CYII=">
+
+	<img onclick="notes()" id="notes" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0NyRXSkiP1OMzJvKGwMaWfm9SzPBIVCiPD_58Sh3M8K3eTBB-_Qm-vH4pzqxOrzNFoEg&usqp=CAU">
+
+	<img onclick="comp()" id="comp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6syuiXs6udQOvILQ5NqkJbImHdwqmXHgxTKg4WcgaVhbJIUSs9FSjfLcjwlj79hj250k&usqp=CAU" position="">
+
+	<img src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r7846249514181434304&th=1849b6a959f02af4&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-UriaQfhSwS1UkUL4mfmGP2MOWxkMzQRfoSognlkFA0liVPGb2tiw7gmIgA_szKEuT71Mh6Gkh3f4SrBvZ_in-hUZbwNj29bap_oxMBTWi-5OjBKY-MZuzAGk&disp=emb&realattid=ii_lar441730" onclick="sol()" id="soli">
+
+	<img onclick="teash()" id="trash" src="https://i.redd.it/p1ovw196pbo51.jpg" position="">
+
+	<img onclick="mine()" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r5443329435369438712&th=184d1003843ccaca&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ__I2P0G4TbA-3wDcYe_sdECfL5AwuRxnHw4j3xx9Tr_JPtTTNMvScLIaMXW5uTXXA3A5PS2YvCrcPooCiVG7daIwDLST85P2llzxzXX_M2QwnmqdQCP2kDWpI&disp=emb&realattid=ii_lb5zcnqb0" id="mine">
+
+	<div id="hid2">
+		<div id="body2"></div>
+		<div id="headder2"><img id="img2" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r-1678765860913173279&th=1848d7931af3caf1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_NWh17PjZzbR1YcvCA2mimoFrUb6j5N_F0LROD6iWa7DXCf9BQHUuCm4C_w6RF6XSoSCnZls5YWXqLGoPsU1h65fXMxvcBW5g7WvKUfEp9O9_zIrG26MeDd2k&disp=emb&realattid=ii_lan8sdu80"></div>
+		<div id="HEADDER3"></div>
+		<div id="HEADDER4">MY COMPUTER</div>
+		<div id="text1">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+
+		</iframe>
+		<img id="buttons1" onclick="comp()" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r3687624893015848023&th=1849b130fab30694&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9fDGwntoNYY1IGyNQYGeVB3PBQVgfvxynzHVBb8jA7ZAaywMnOx4THxc41HzYgcXfLxSeAYZNqdeMN3hemEvfWpo4nS5Pqsv4p024t6VcYvVbr6pU4Hd3zwas&disp=emb&realattid=ii_lar0p3kh0">
+		<div id="things">
+			<button id="t1">File</button>
+			<button id="t1">Edit</button>
+			<button id="t1">View</button>
+			<button id="t1">Help</button>
+
+		</div>
+	</div>
+
+	<div id="hid5">
+		<div id="body6"></div>
+		<div id="headder9"><img id="img3" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r-1678765860913173279&th=1848d7931af3caf1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_NWh17PjZzbR1YcvCA2mimoFrUb6j5N_F0LROD6iWa7DXCf9BQHUuCm4C_w6RF6XSoSCnZls5YWXqLGoPsU1h65fXMxvcBW5g7WvKUfEp9O9_zIrG26MeDd2k&disp=emb&realattid=ii_lan8sdu80"></div>
+		<div id="HEADDER7"></div>
+		<div id="HEADDER10">Solitaire</div>
+		<iframe id="text8" scrolling="no" title="solitaire-js" src="https://codepen.io/bfa/embed/ggGYeE?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+
+		</iframe>
+
+		</iframe>
+		<img id="buttons3" onclick="sol()" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r3687624893015848023&th=1849b130fab30694&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9fDGwntoNYY1IGyNQYGeVB3PBQVgfvxynzHVBb8jA7ZAaywMnOx4THxc41HzYgcXfLxSeAYZNqdeMN3hemEvfWpo4nS5Pqsv4p024t6VcYvVbr6pU4Hd3zwas&disp=emb&realattid=ii_lar0p3kh0">
+
+	</div>
+	<img id="ssss" src="https://64.media.tumblr.com/11d75c1ec61c6157286374590fe56555/tumblr_ph7yykfZkC1xkr0iao1_540.gif">
+	<div id="hid10">
+		<div id="body12"></div>
+		<div id="headder18"><img id="img6" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r-1678765860913173279&th=1848d7931af3caf1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_NWh17PjZzbR1YcvCA2mimoFrUb6j5N_F0LROD6iWa7DXCf9BQHUuCm4C_w6RF6XSoSCnZls5YWXqLGoPsU1h65fXMxvcBW5g7WvKUfEp9O9_zIrG26MeDd2k&disp=emb&realattid=ii_lan8sdu80"></div>
+
+		<div id="HEADDER8"></div>
+		<div id="HEADDER10">My Neighborhood</div>
+		<iframe id="text18" scrolling="no" title="solitaire-js" src="https://codepen.io/okkkkkkkkkkkkkkkkkkkk/embed/GRGQqzo?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+
+		</iframe>
+
+		</iframe>
+		<img id="buttons10" onclick="chat()" src="https://preview.redd.it/qa0k1n3tfar81.png?auto=webp&s=e9149408f481910b24dcb27167b6e637fb73d876">
+	</div>
+
+	<div id="hid20">
+		<div id="body15"></div>
+		<div id="headder28"><img id="img66" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r-1678765860913173279&th=1848d7931af3caf1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_NWh17PjZzbR1YcvCA2mimoFrUb6j5N_F0LROD6iWa7DXCf9BQHUuCm4C_w6RF6XSoSCnZls5YWXqLGoPsU1h65fXMxvcBW5g7WvKUfEp9O9_zIrG26MeDd2k&disp=emb&realattid=ii_lan8sdu80"></div>
+		<div id="HEADDER88"></div>
+		<div id="HEADDER100">My Neighborhood</div>
+		<div id="set">
+			<div id="text288">
+				<input type="text" id="firstname" /><br /><br /> <label for="age"></label><br />
+
+			</div>
+			<img id="buttons666" onclick="notes()" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r3687624893015848023&th=1849b130fab30694&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9fDGwntoNYY1IGyNQYGeVB3PBQVgfvxynzHVBb8jA7ZAaywMnOx4THxc41HzYgcXfLxSeAYZNqdeMN3hemEvfWpo4nS5Pqsv4p024t6VcYvVbr6pU4Hd3zwas&disp=emb&realattid=ii_lar0p3kh0">
+			<div id="text299" class="right">
+				<input type="button" value="Add to localStorage" onclick="add_local()" />
+
+				<input type="button" value="Show localStorage" onclick="show_local()" />
+
+			</div>
+		</div>
+		<div class="display">
+
+		</div>
+	</div>
+	</div>
+
+	</div>
+
+	</iframe>
+
+	</iframe>
+
+	</div>
+
+	<div id="hid400">
+		<div id="body150"></div>
+		<div id="headder280"><img id="img660" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r-1678765860913173279&th=1848d7931af3caf1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_NWh17PjZzbR1YcvCA2mimoFrUb6j5N_F0LROD6iWa7DXCf9BQHUuCm4C_w6RF6XSoSCnZls5YWXqLGoPsU1h65fXMxvcBW5g7WvKUfEp9O9_zIrG26MeDd2k&disp=emb&realattid=ii_lan8sdu80"></div>
+		<div id="HEADDER880"></div>
+		<div id="HEADDER1000">Mine Sweeper</div>
+		<div id="set">
+			<div id="text3880">
+
+				<div class="panel">
+					<div class="head">
+						<p id="flag" class="flagCounterDisplay"></p>
+						<div class="smiley">
+							<div><img src="https://www.dropbox.com/s/pc77oelgik4uamu/smiley.png?raw=1" alt="Smiley Face" id="smileyImage"></div>
+						</div>
+						<p class="flagCounterDisplay"></p>
+					</div>
+					<div class="field">
+						<div class="row 0">
+							<div data-col="0" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="1" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="2" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="3" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="4" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="5" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="6" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="7" oncontextmenu="return false;" class="cell unclicked"></div>
+						</div>
+						<div class="row 1">
+							<div data-col="0" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="1" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="2" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="3" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="4" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="5" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="6" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="7" oncontextmenu="return false;" class="cell unclicked"></div>
+						</div>
+						<div class="row 2">
+							<div data-col="0" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="1" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="2" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="3" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="4" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="5" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="6" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="7" oncontextmenu="return false;" class="cell unclicked"></div>
+						</div>
+						<div class="row 3">
+							<div data-col="0" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="1" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="2" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="3" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="4" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="5" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="6" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="7" oncontextmenu="return false;" class="cell unclicked"></div>
+						</div>
+						<div class="row 4">
+							<div data-col="0" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="1" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="2" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="3" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="4" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="5" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="6" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="7" oncontextmenu="return false;" class="cell unclicked"></div>
+						</div>
+						<div class="row 5">
+							<div data-col="0" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="1" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="2" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="3" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="4" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="5" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="6" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="7" oncontextmenu="return false;" class="cell unclicked"></div>
+						</div>
+						<div class="row 6">
+							<div data-col="0" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="1" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="2" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="3" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="4" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="5" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="6" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="7" oncontextmenu="return false;" class="cell unclicked"></div>
+						</div>
+						<div class="row 7">
+							<div data-col="0" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="1" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="2" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="3" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="4" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="5" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="6" oncontextmenu="return false;" class="cell unclicked"></div>
+							<div data-col="7" oncontextmenu="return false;" class="cell unclicked"></div>
+						</div>
+					</div>
+				</div>
+				<img style="opacity:0;height: 0;" src="https://www.dropbox.com/s/6z0xengckd40y2o/flag.png?raw=1">
+				<img style="opacity:0;height: 0;" src="https://www.dropbox.com/s/nqtluk6g57j6mx9/anticipation.png?raw=1">
+				<img style="opacity:0;height: 0;" src="https://www.dropbox.com/s/jtxbdhyaxziopof/dead.png?raw=1">
+				<img style="opacity:0;height: 0;" src="https://www.dropbox.com/s/7ktcicbguflrkc4/mine.png?raw=1">
+
+			</div>
+		</div>
+		<img id="buttons6660" onclick="mine()" src="https://mail.google.com/mail/u/0?ui=2&ik=f7c59275f5&attid=0.1&permmsgid=msg-a:r3687624893015848023&th=1849b130fab30694&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9fDGwntoNYY1IGyNQYGeVB3PBQVgfvxynzHVBb8jA7ZAaywMnOx4THxc41HzYgcXfLxSeAYZNqdeMN3hemEvfWpo4nS5Pqsv4p024t6VcYvVbr6pU4Hd3zwas&disp=emb&realattid=ii_lar0p3kh0">
+		<div class="display">
+
+		</div>
+	</div>
+	</div>
+
+	</div>
+
+	</iframe>
+
+	</iframe>
+
+	</div>
+
+	</div>
+</body>
+
+</html>
